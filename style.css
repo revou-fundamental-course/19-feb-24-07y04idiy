@@ -5,10 +5,12 @@ body {
 }
 
 header {
-  background-color: #c0900f;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
+  background: #c0900f;
+  display: flex;
+  border-color: #c0900f;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav {
@@ -39,19 +41,20 @@ nav a {
   margin: 20px auto;
   text-align: center;
 }
-
 .circle-container {
   display: inline-block;
   margin: 20px 10px;
 }
 
 .circle {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 2px solid #333; /* ketebalan garis */
   background-color: transparent; /* membuat bagian tengah kosong */
+  background-size: 100%; 
 }
+
 
 .label {
   margin-top: 10px;
